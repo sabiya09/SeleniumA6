@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  
+   <run>
+   <include name="Bollywood"></include>
+   <exclude name="Tollywood"></exclude>
+     </run>
+     
+    </groups>
+    
+    
+    <classes>
+      <class name="Org.A7AutomationGroupExecution.Puneet"/>
+      <class name="Org.A7AutomationGroupExecution.SRK"/>
+      <class name="Org.A7AutomationGroupExecution.Yash"/>
+      <class name="Org.A7AutomationGroupExecution.AlluArjun"/>
+      <class name="Org.A7AutomationGroupExecution.Mahesh"/>
+      <class name="Org.A7AutomationGroupExecution.Vicky"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

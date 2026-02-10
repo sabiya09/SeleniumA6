@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <!-- <test thread-count="5" name="Test"  parallel="classes">   runs all the classes parallely-->
+   
+    <!-- <test thread-count="5" name="Test"  parallel="classes"> runs all the methods parallely -->
+    
+     <test thread-count="5" name="Test"  parallel="false">  <!-- runs  -->
+    <classes>
+      <class name="Org.A7AutomationBatchExecution.Suzuki"/>
+      <class name="Org.A7AutomationBatchExecution.Jawa"/>
+      <class name="Org.A7AutomationBatchExecution.YezdiBikes"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
